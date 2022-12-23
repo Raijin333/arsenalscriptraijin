@@ -1,0 +1,18 @@
+local custom_keys = {134343, 143435, "lolxd"} -- here you add custom keys if someone buys one!!
+local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
+local win = DiscordLib:Window("Key System | Raijin Hub")
+local serv = win:Server("Authentication", "")
+local logi = serv:Channel("Login")
+
+
+
+
+
+
+logi:Seperator()
+
+
+
+logi:Button("Script Link", function()
+   setclipboard("https://raijinscriptss.com/v/2bCRzLmthQs?P=TD6eTwqS")
+end)
